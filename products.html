@@ -1,6 +1,35 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<style type="text/css">
+.row{vertical-align:top;
+	height:auto !important;}
+.list{display:none;
+	}
+	.show{display:none;}
+	.hide:target+.show{display:inline;}
+	.hide:target{display:none;}
+	.hide:target~.list{display:inline;}
+	@media print{.hide,.show{display:none}}
+	
+	.list1{display:none;
+	}
+	.show0{display:none;}
+	.hide0:target+.show0{display:inline;}
+	.hide0:target{display:none;}
+	.hide0:target~.list1{display:inline;}
+	@media print{.hide0,.show0{display:none}}
+
+	
+	.list2{display:none;
+	}
+	.show00{display:none;}
+	.hide00:target+.show00{display:inline;}
+	.hide00:target{display:none;}
+	.hide00:target~.list2{display:inline;}
+	@media print{.hide00,.show00{display:none}}
+</style>
+	
 <title>Garg Computronics | Products</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css" />
 
@@ -23,13 +52,41 @@
   
   <section id="content"> 
 	<img src="images/pro.jpg" alt="Prodot" width="740" height="299" /> 
-	<h3>Inkjet cartridges</h3>
-	<h3>Laserjet cartridges</h3>
-	<h3>DMP cartridges</h3>
-	<h3>Toner powder</h3>
-	<h3>Computer Accessories</h3>
-	<h3>Laptop Accessories</h3>
+	<a href="#hide1" class="hide" id="hide1"><button class="accordion"><h3>Printer Accessories</h3></button></a>
+	<a href="#show1" class="show" id="show1"><button class="accordion"><h3>Printer Accessories</h3></button></a>
+	<div class="list">
+	<ul>
+	<li>Inkjet cartridges</li>
+	<li>Laserjet cartridges</li>
+	<li>DMP cartridges</li>
+	<li>Toner powder</li>
+	<li>Ink Bottles</li>
+	</ul>
+	</div>
+	<a href="#hide2" class="hide0" id="hide2"><button class="accordion"><h3>Computer Accessories</h3></button></a>
+	<a href="#show2" class="show0" id="show2"><button class="accordion"><h3>Computer Accessories</h3></button></a>
+	<div class="list1">
+	<ul>
+	<li>USB Hub</li>
+	<li>USB/PS2 Mouse & Keyboard</li>
+	<li>Web Camera</li>
+	<li>Different types of cards</li>
+	<li>Wifi Routers</li>
+	<li>Switch</li>
 	
+	</ul>
+	</div>
+	<a href="#hide3" class="hide00" id="hide3"><button class="accordion"><h3>Laptop Accessories</h3></button></a>
+	<a href="#show3" class="show00" id="show3"><button class="accordion"><h3>Laptop Accessories</h3></button></a>
+	<div class="list2">
+	<ul>
+	<li>Laptop Cleaning Kit</li>
+	<li>Laptop Adaptors</li>
+	<li>Laptop Batteries</li>
+	<li>Cooling pad</li>
+	
+	</ul>
+	</div>
 	
   </section>
   
