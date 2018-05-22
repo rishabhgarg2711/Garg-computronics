@@ -3,16 +3,31 @@
 <head>
 <title>Garg Computronics</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery.js"></script>
+<script>
+		//Choose if you want the window width to display - 1 = yes, 0 = no
+		var showWidth = 1;
+		
+		if(showWidth == 1){
+        	$(document).ready(function (){
+            	$(window).resize(function(){
+                	var width = $(window).width();
+                	document.getElementById("output_width").innerHTML='Window Width:'+width.toString();
+           		});
+        	});
+		}
+    </script>
 
 </head>
 <body>
+<div id="output_width"></div><!--Widow width inserted here-->
+
 <div id="container" class="shadow">
 
   <header> 
-  	<img src="images/2.jpg" alt="logo" width="95" height="119" />
+  	<img class="image" src="images/2.jpg" alt="logo" width="20%"  />
     <p class="title">Garg Computronics</p>
   </header>
-  
   <ul id="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -20,9 +35,9 @@
       <li><a href="products.html">Products</a></li>
       <li><a href="contact.html">Contact Me</a></li>
   </ul>
-  
+  <img src="images/1.jpg" alt="accesories" width="100%"  />
   <section id="content"> 
-  	<img src="images/1.jpg" alt="accesories" width="737" height="267" />
+  	
     
     <h1>Deals in Computer,Laptop & Printer accessories</h1>
     <img src="images/3.png" alt="Products" width="337" height="174" class="floatright" />

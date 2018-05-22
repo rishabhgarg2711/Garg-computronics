@@ -1,10 +1,11 @@
+
 body {
 	background-color:#c0c0c0;
 	font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
-div#container{
-	width:740px;
+#container{
+	width:60%;
 	margin:60px auto;
 	background-color:#ffffff;
 	padding:30px;
@@ -23,6 +24,11 @@ div#container{
 
 .padding{
 	padding:20px;
+}
+
+ul#nav a.active{
+	background-color:#000;
+		color:#fff;	
 }
 
 header{
@@ -127,3 +133,79 @@ footer{
 			transition:0.4s;
 			border-bottom:1px solid black;
 			}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 240px) and (max-width : 568px) {
+	#container{
+		width:80%;
+		margin:20px auto;
+	}
+	
+	header .title{
+		font-size:38px;
+	}
+	ul#nav{
+		
+		display:block;
+		overflow:hidden;
+		width:99%;
+		height:auto;
+		border-radius:5px;
+		border:#000 1px solid;
+		
+	}
+
+	
+	ul#nav li{
+		
+		display:block;
+		margin-right:0px;
+		width:100%;
+		border-bottom:solid #000 1px;
+		
+	}
+	
+	ul#nav a{
+		margin-bottom:0;
+		text-align:center;
+		width:100%;
+		padding:5px;
+		transition: width 1s;
+	}
+	
+	ul#nav a:hover,ul#nav a.active{
+		background-color:#000;
+		color:#fff;	
+		display:block;
+		transition: none ;
+	}
+	section#content p,
+	section#content li,
+	section#content a{
+	font-size:10px;
+	line-height:17px;
+	
+	}
+	footer p{
+		font-size:12px;
+	}
+	footer img{
+		width:15%
+	}
+	footer{
+	padding:10px;
+	margin-top:30px;
+	height:40px;
+	}
+	footer img{
+		width:10%;
+		height:80%
+	}
+	section#content h1{
+		font-size:15px;
+	}
+	section#content img{
+		width:55%;
+		height:30%;
+	}
+}	
