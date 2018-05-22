@@ -4,9 +4,23 @@
 <title>Garg Computronics</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css" />
 <script src="js/jquery.js"></script>
+<script>
+		//Choose if you want the window width to display - 1 = yes, 0 = no
+		var showWidth = 1;
+		
+		if(showWidth == 1){
+        	$(document).ready(function (){
+            	$(window).resize(function(){
+                	var width = $(window).width();
+                	document.getElementById("output_width").innerHTML='Window Width:'+width.toString();
+           		});
+        	});
+		}
+    </script>
 
 </head>
 <body>
+<div id="output_width"></div><!--Widow width inserted here-->
 
 <div id="container" class="shadow">
 
