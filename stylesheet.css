@@ -26,10 +26,6 @@ body {
 	padding:20px;
 }
 
-ul#nav a.active{
-	background-color:#000;
-		color:#fff;	
-}
 
 header{
 	text-align:center;
@@ -137,13 +133,16 @@ footer{
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 140px) and (max-width : 1000px) {
 	#container{
-		width: 90%;
-		margin:20px auto;
+		width: 95%;
+		margin:0px auto;
 		padding:10px;
+	}
+	.shadow{
+		box-shadow:none;
 	}
 	
 	header .title{
-		font-size:38px;
+		font-size:32px;
 	}
 	ul#nav{
 		
@@ -171,15 +170,16 @@ footer{
 		text-align:center;
 		width:100%;
 		padding:5px;
-		transition: width 1s;
+		transition:width 1s;
 	}
 	
-	ul#nav a:hover,ul#nav a.active{
+	ul#nav a:hover{
 		background-color:#000;
 		color:#fff;	
 		display:block;
-		transition: none ;
+		transition:none;
 	}
+	
 	section#content p,
 	section#content li,
 	section#content a{
