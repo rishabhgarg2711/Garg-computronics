@@ -1,0 +1,118 @@
+body{
+	background-color:#ffffff;
+	font-family:sans-seriff;
+	padding:0;
+	margin:0;
+}
+.slide{
+	width:80%;
+	margin:auto;
+	padding:10px 0 20px 0;
+	
+}
+
+.about img{
+	
+	width:70%;
+	border-radius:50%;
+	border:solid 2px #000000;
+}
+
+.slide h3{
+	font-size: 3vh;
+	border-top:none;
+	background-color:transparent;
+}
+.carousel-caption {
+position: absolute;
+  top: 10%;
+}
+.slide p {
+  font-size: 3vmin;
+}
+.slide img{
+	filter:brightness(30%);
+}
+.intro p{
+	font-size:2em;
+	color:#025d91;
+	text-align:center;
+}
+.about {
+	
+	padding:0 0 50px 0;
+}
+.about{
+	width:75%;
+	margin:auto;
+	border-top:solid 4px #e28204;
+}
+.about p{
+	font-size:1.25em;
+	color:black;
+}
+.skills{
+	width:75%;
+	margin:auto;
+		border-top:solid 4px #e28204;
+		padding:0 0 50px 0;
+}
+.skills li{
+	font-size:1.25em;
+
+}
+
+.social{
+	
+	padding:0 0 50px 0;
+}
+.social{
+	width:75%;
+	margin:auto;
+		border-top:solid 4px #e28204;
+}
+.social a{
+	font-size:1.5em;
+	margin:10px;
+	color:black;
+	text-align:center;
+}
+.quali{
+	padding:0 0 50px 0;
+}
+
+.footer {
+	width:75%;
+	padding: 0 0 50px 0;
+	border-top:solid 4px #e28204;
+	margin:auto;
+}
+
+.footer h4{
+	text-align:center;
+	color:black;
+}
+.up{
+	width:100%;
+	height:50px;
+	background-color:#e3e9f4;
+	margin:0;
+	padding:0;
+	text-align:center;
+	
+}
+
+h1{
+	color:#ffffff;
+	font-size:1.5em;
+	background-color:#f2a746;
+	width:auto;
+ }
+
+a:link{
+	text-decoration:none;
+}
+.social img{
+	width:35%;
+	padding-top:10%;
+}
