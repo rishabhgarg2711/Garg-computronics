@@ -1,9 +1,4 @@
 
-body {
-	background-color:#c0c0c0;
-	font-family:"Lucida Sans", Arial, Helvetica, sans-serif;
-}
-
 #container{
 	width:60%;
 	margin:60px auto;
@@ -29,11 +24,15 @@ body {
 
 header{
 	text-align:center;
+	
 }
 	
 	header .title{
 		font-size:72px;
 		margin:0px;
+	}
+	header .image{
+		max-width:15%;
 	}
 
 ul#nav{
